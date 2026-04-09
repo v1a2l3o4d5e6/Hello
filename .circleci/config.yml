@@ -11,7 +11,7 @@ jobs:
           command: "echo Hello, World!"
       - run:
           name: "Show README"
-          command: "prints your CircleCI Practical by Vivek"
+          command: "cat README.md"
 
 workflows:
   say-hello-workflow:
